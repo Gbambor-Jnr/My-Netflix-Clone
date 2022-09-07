@@ -49,7 +49,7 @@ function App() {
         <SignIn />
       </Route>
       <Route path="*">
-        <Redirect to="/sign-in" />
+        <Redirect to="/login" />
       </Route>
     </Switch>
   );

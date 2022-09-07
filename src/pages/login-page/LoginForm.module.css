@@ -1,0 +1,35 @@
+.loginContainer {
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  width: 45%;
+  margin-top: 20px;
+}
+
+.loginContainer h6 {
+  font-size: 14px;
+  color: rgb(186, 182, 182);
+}
+
+.loginContainer input {
+  height: 62px;
+  width: 400px;
+  outline: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.loginContainer button {
+  width: 150px;
+  height: 60px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: red;
+  padding-left: 10px;
+  font-size: 15px;
+}

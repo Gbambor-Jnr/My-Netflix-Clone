@@ -1,0 +1,37 @@
+.logindiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginnav {
+  width: 60px;
+  margin-top: 10px;
+}
+
+.selBtn {
+  width: 18%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.logindiv a {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 90px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.logindiv select {
+  background-color: rgba(0, 0, 0, 0.203);
+  color: white;
+  outline: none;
+  padding: 10px;
+  border-radius: 3px;
+}

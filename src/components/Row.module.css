@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.container::--webkit-scrollbar {
+  display: none;
+}
+.img {
+  width: 120px;
+  margin: 3px;
+}
+
+.row {
+  max-width: 220px;
+  height: 180px;
+}
+
+.row:hover {
+  animation: bump 500ms 100ms ease-in-out forwards;
+}
+.img:hover {
+  animation: bump 500ms 100ms ease-in-out forwards;
+}
+
+@keyframes bump {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+.YouTube {
+  z-index: 1000;
+}
